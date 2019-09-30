@@ -19,7 +19,7 @@ function drawMap(position) {
     // These are the specifics we will pass to the Map() function down below
     var mapOptions = {
         center: new google.maps.LatLng(lat, long), // choose where we are centering
-        mapTypeId: google.maps.MapTypeId.HYBRID, // Other options: SATELLITE, ROADMAP, TERRAIN
+        mapTypeId: google.maps.MapTypeId.HYBRID, // Other options: SATELLITE, ROADMAP, TERRAIN, HYRBID
         zoom:20 // 20 is max
     };
 
