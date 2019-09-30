@@ -20,7 +20,7 @@ function drawMap(position) {
     var mapOptions = {
         center: new google.maps.LatLng(lat, long), // choose where we are centering
         mapTypeId: google.maps.MapTypeId.HYBRID, // Other options: SATELLITE, ROADMAP, TERRAIN, HYRBID
-        zoom:20 // 20 is max
+        zoom: 20 // 20 is max
     };
 
     myMap = new google.maps.Map(document.getElementById('map'), mapOptions);
